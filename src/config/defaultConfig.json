@@ -1,0 +1,141 @@
+{
+    "users": {
+        "defaultMetric": "Status",
+        "itemPerPage": 10,
+        "sortingName": "Id",
+        "sortingValue": "ASC",
+        "checkedField": [
+            {
+                "id": 1, 
+                "checked": true, 
+                "name": "Surname",
+                "disabled": true
+            },
+            {
+                "id": 4,
+                "checked": true,
+                "name": "City"
+            },
+            {
+                "id": 2, 
+                "checked": true, 
+                "name": "Name"
+            },
+            {
+                "id": 3,
+                "checked": true,
+                "name": "Profession1"
+            },
+            {
+                "id": 5,
+                "checked": true,
+                "name": "Ability 1"
+            },
+            {
+                "id":6,
+                "checked": true,
+                "name": "Ability 2"
+            }
+        ],
+        "fields": [
+            {
+                "id": 1, "checked": true, "name": "Surname", "disabled": true
+            },
+            {
+                "id": 2, "checked": true, "name": "Name"
+            },
+            {
+                "id": 3, "checked": true, "name": "Profession1"
+            }, 
+            {
+                "id": 4, "checked": true, "name": "City"
+            },
+            {
+                "id": 5, "checked": true, "name": "Ability 1"
+            }, 
+            {
+                "id": 6, "checked": true, "name": "Ability 2"
+            },  
+            {
+                "id": 7, "checked": false, "name": "Ability 3"
+            },  
+            {
+                "id": 8, "checked": false, "name": "Ability 4"
+            },  
+            {
+                "id": 9, "checked": false, "name": "Ability 5"
+            },  
+            {
+                "id": 10, "checked": false, "name": "Ability 6"
+            },  
+            {
+                "id": 11, "checked": false, "name": "Ability 7"
+            },  
+            {
+                "id": 12, "checked": false, "name": "Ability 8"
+            }
+        ]
+    },
+    "company": {
+        "defaultMetric": "guys",
+        "itemPerPage": 20,
+        "sortingName": "Name",
+        "sortingValue": "DESC",
+        "checkedField": [
+            {
+                "id": 1, 
+                "checked": true, 
+                "name": "Surname",
+                "disabled": true
+            },
+            {
+                "id": 4,
+                "checked": true,
+                "name": "CityMan"
+            },
+            {
+                "id": 3,
+                "checked": true,
+                "name": "Profession2"
+            }
+        ],
+        "fields": [
+            {
+                "id": 1, "checked": true, "name": "Surname", "disabled": true
+            },
+            {
+                "id": 2, "checked": false, "name": "Name"
+            },
+            {
+                "id": 3, "checked": true, "name": "Profession2"
+            }, 
+            {
+                "id": 4, "checked": true, "name": "CityMan"
+            },
+            {
+                "id": 5, "checked": false, "name": "Ability 1"
+            }, 
+            {
+                "id": 6, "checked": false, "name": "Ability 2"
+            },  
+            {
+                "id": 7, "checked": false, "name": "Ability 3"
+            },  
+            {
+                "id": 8, "checked": false, "name": "Ability 4"
+            },  
+            {
+                "id": 9, "checked": false, "name": "Ability 5"
+            },  
+            {
+                "id": 10, "checked": false, "name": "Ability 6"
+            },  
+            {
+                "id": 11, "checked": false, "name": "Ability 7"
+            },  
+            {
+                "id": 12, "checked": false, "name": "Ability 8"
+            }
+        ]
+    }
+}

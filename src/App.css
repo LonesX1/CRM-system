@@ -1,0 +1,38 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    /* background: url(./components/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.wrapper {
+    width: 80.75em;                                                                                                                              
+    margin: 0 auto;
+}
+.module {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button {
+    border-radius: 5px;
+}
+input {
+    outline: none;
+    user-select: none;
+}
+select {
+    border-radius: 5px;
+
+}
+.hide {
+    opacity: 0.4;
+}
+.hovered {
+    background: rgba(43, 0, 255, 0.167);
+}
+.error {
+    color: rgb(251, 96, 96);
+}

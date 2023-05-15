@@ -1,0 +1,321 @@
+.header {
+    width: 100%;
+    height: 40px;
+    /* background: #d6edcf; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+.header select {
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+.search {
+    width: 16em;
+    display: flex;
+    justify-content: space-between;
+    height: 1.7em;
+    /* margin-left: 10px; */
+    position: relative;
+}
+.searchQuery {
+    width: 90%;
+    outline: none;
+    height: 100%;
+    border: 1px solid #d2d0fe;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+.name {
+    color: white;
+}
+.searchQuery .containerSearch {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.containerSearch button {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 0.35em;
+    left: 0.5em;    
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.containerSearch button ion-icon {
+    color: #ffffff;    
+    font-size: 1.3em;
+}
+.dataPicker {
+    width: 5em;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.144); */
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.dataPicker span{
+    color: #ffffff;
+    transition: all 0.1s ease;
+}
+.dataPicker:hover {
+    background: #00000017;
+    border-radius: 5px;
+    transition: all 0.1s ease;
+}
+.dataPicker:hover span {
+    transform: scale(0.96);
+    transition: all 0.1s ease;
+}
+.openDataPicker {
+    position: absolute;
+    top: 2em;
+    right: -2.3em;
+    width: 10em;
+    height: 8em;
+    background: #3e3d3d;
+    border: 1px solid #3e3d3d;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+}
+.changeData {
+    width: 100%;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background: #21212165;
+    /* border: 1px solid #212121; */
+    align-items: center;
+    border-radius: 5px;
+    /* margin-bottom: 1em; */
+    padding: 0.2em;
+}
+.changeData input {
+    width: 7em;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.openDataPicker button {
+    width: 5em;
+    height: 2em;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    transition: all 0.2s ease;
+}
+.openDataPicker button:hover {
+    background: rgba(255, 255, 255, 0.11);
+}
+.closedDataPicker {
+    display: none;
+}
+.configurator {
+    width: 7.7em;
+    height: 2em;
+    /* border-radius: 50%; */
+    /* border: 1px solid rgb(72, 72, 72); */
+    /* margin-right: 10px; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3em;
+    transition: all 0.1s ease;
+}
+.configurator span {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    transition: all 0.1s ease;
+    color: #ffffff;
+    justify-content: center;
+}
+.configurator ion-icon {
+    color: rgb(59, 59, 59);
+    font-size: 1.7em;
+    transition: all 0.1s ease;
+    color: #ffffff;
+}
+.configurator:hover {
+    background: #00000017;
+    border-radius: 5px;
+    transition: all 0.1s ease;
+}
+.configurator:hover span {
+    transform: scale(0.96);
+    transition: all 0.1s ease;
+
+}
+.closed_configurator {
+    display: none;
+}
+.open_configurator {
+    right: 10px;
+    top: 40px;
+    width: 20em;
+    min-height: 25em;
+    position: absolute;
+    background: #3e3d3d;
+    border: 1px solid #3e3d3d;
+    border-radius: 7px;
+    /* padding: 0.2em; */
+}
+.open_configurator form {
+    width: 100%;
+    height: 100%;
+}
+.headerConfigurator {
+    width: 100%;
+    height: 1.5em;
+    color: #ffffff;
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 7px 7px 0 0;
+    background: #212121;
+    /* border-bottom: 1px solid rgb(81, 81, 81); */
+}
+.close {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    right: 0.5em;
+    font-size: 1.2em;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.close:hover {
+    color: red;
+}
+.itemPerPage span {
+    color: #ffffff;
+    margin: 0.2em 0;
+}
+.itemPerPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.itemPerPage select {
+    user-select: none;
+    outline: none;
+    width: 90%;
+    align-self: center;
+}
+.sorting {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0.5em 0;
+}
+.sortingValue {
+    display: flex;
+    flex-direction: column;
+    width: 8em;
+}
+.sortingValue span {
+    color: white;
+}
+.dragAndDropFields {
+    width: 100%;
+    height: 3em;
+    border-top: 1px solid rgb(81, 81, 81);
+    border-bottom: 1px solid rgb(81, 81, 81);
+    padding: 0.3em 0.2em;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.dragAndDropFields::-webkit-scrollbar {
+    height: 0;
+}
+.field {
+    min-width: 5em;
+    height: 2.5em;
+    border: 1px solid rgb(121, 120, 120);
+    border-radius: 5px;
+    display: flex;
+    padding: 0 0.3em;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.container {
+    flex: 0 0 auto;
+    min-width: 5em;
+    height: 2.5em;
+    margin-right: 0.2em;
+}
+.selectFields {
+    width: 100%;
+    min-height: 11em;
+    align-items: center;
+    place-items: center;
+    display: grid;
+    padding: 0 1em;
+    grid-template-columns: 1fr 1fr;
+}
+.selectField span {
+    color: white;
+}
+.selectField {
+    width: 8em;
+    display: flex;
+    align-items: center;
+    
+    padding: 0.2em;
+    margin: 0.2em;
+    border: 1px solid rgb(81, 81, 81);
+    border-radius: 5px;
+}
+.selectField input {
+    margin-right: 0.9em;
+}
+.configuratorButton {
+    height: 2.1em;
+    display: flex;
+    justify-content: end;
+    padding: 0 1em;
+    align-items: center;
+}
+.configuratorButton button {
+    width: 4em;
+    height: 2em;
+    border: 1px solid rgb(121, 120, 120);
+    margin-left: 0.2em;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.configuratorButton button:hover {
+    background: rgba(255, 255, 255, 0.11);
+}

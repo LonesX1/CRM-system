@@ -1,0 +1,63 @@
+.main {
+    width: 100%;
+    min-height: 41.063em;
+    /* border: 1px solid #3c6e71; */
+    border-radius: 10px;    
+    /* margin: 10px auto; */
+}
+.header {
+    width: 100%;
+    height: 2em;
+    background: #353535;
+    border-radius: 10px 10px 0 0;
+    font-size: 0.9em;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+}
+.header div {
+    color: white;
+}
+.user {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    display: flex;
+    /* justify-content: space-between; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+.listUsers {
+    width: 100%;
+    min-height: calc(41.063em - 2em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 0 0 7px 7px;
+    padding: 1em 0.9em 0 0.9em;
+}
+
+span {
+    color: rgb(255, 255, 255);
+}
+.listUsers .id {
+    border-right: 1px solid rgba(0, 0, 0, 0.103);
+}
+.id {
+    font-size: 0.88em;
+    width: 41px;
+    text-align: left;
+}
+.listUsers .containerField {
+    border-right: 1px solid rgba(0, 0, 0, 0.103);
+
+}
+.containerField {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 97px;
+    font-size: 0.9em;
+    margin-left: 0.18em;
+    text-align: center;
+}
